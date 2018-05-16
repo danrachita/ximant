@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XNT
+Comment=XNT P2P Cryptocurrency
+Exec=ximant-qt %u
+Terminal=false
+Type=Application
+Icon=ximant128
+MimeType=x-scheme-handler/ximant;
+Categories=Office;Finance;
+Name[en_US]=ximant-qt.desktop

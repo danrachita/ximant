@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ximant_bg.qm</file>
+        <file alias="de">locale/ximant_de.qm</file>
+        <file alias="en">locale/ximant_en.qm</file>
+        <file alias="es">locale/ximant_es.qm</file>
+        <file alias="fi">locale/ximant_fi.qm</file>
+        <file alias="fr">locale/ximant_fr.qm</file>
+        <file alias="it">locale/ximant_it.qm</file>
+        <file alias="ja">locale/ximant_ja.qm</file>
+        <file alias="pl">locale/ximant_pl.qm</file>
+        <file alias="pt">locale/ximant_pt.qm</file>
+        <file alias="ru">locale/ximant_ru.qm</file>
+        <file alias="sk">locale/ximant_sk.qm</file>
+        <file alias="sv">locale/ximant_sv.qm</file>
+        <file alias="vi">locale/ximant_vi.qm</file>
+        <file alias="zh_CN">locale/ximant_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ximant_zh_TW.qm</file>
+    </qresource>
+</RCC>

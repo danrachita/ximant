@@ -1,0 +1,26 @@
+[Unit]
+Description=XNT's distributed currency daemon
+After=network.target
+
+[Service]
+User=ximant
+Group=ximant
+
+Type=forking
+PIDFile=/var/lib/ximantd/ximantd.pid
+
+ExecStart=/usr/bin/ximantd -daemon -pid=/var/lib/ximantd/ximantd.pid \
+          -conf=/etc/ximant/ximant.conf -datadir=/var/lib/ximantd
+
+ExecStop=-/usr/bin/ximant-cli -conf=/etc/ximant/ximant.conf \
+         -datadir=/var/lib/ximantd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

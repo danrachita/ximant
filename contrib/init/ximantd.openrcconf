@@ -1,0 +1,26 @@
+# /etc/conf.d/ximantd: config file for /etc/init.d/ximantd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ximant/ximant.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ximantd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ximantd.pid"
+
+# Where to write ximantd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ximantd"
+
+# User and group to own ximantd process
+#BITCOIND_USER="ximant"
+#BITCOIND_GROUP="ximant"
+
+# Path to ximantd executable
+#BITCOIND_BIN="/usr/bin/ximantd"
+
+# Nice value to run ximantd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
